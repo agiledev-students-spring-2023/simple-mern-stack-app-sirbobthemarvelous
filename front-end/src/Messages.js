@@ -15,6 +15,7 @@ const Messages = props => {
   const [loaded, setLoaded] = useState(false)
   const [error, setError] = useState('')
   const [feedback, setFeedback] = useState('')
+  //state variables let you automatically update when you make changes
 
   /**
    * A nested function that fetches messages from the back-end server.
